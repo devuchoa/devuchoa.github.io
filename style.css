@@ -1,0 +1,55 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.navbar a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color: #ddd;
+    color: black;
+    transition: .3s;
+    border-radius: 20px;
+}
+
+section{
+    padding: 20px;
+}
+
+.header{
+    text-align: center;
+    padding: 50px;
+    background: #eee;
+}
+
+.portfolio, .knowledge, .contact{
+    background: #f3f3f3;
+    margin: 15px 0;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+@media (max-width: 600px){
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+}
